@@ -12,17 +12,8 @@ Enable autocomplete for admin login.
 
 ## Installation
 
-Enable module:
 ```bash
-php -f bin/magento module:enable SpringImport_AutocompleteAdminLogin
-```
-
-Disable module:
-```bash
-php -f bin/magento module:disable SpringImport_AutocompleteAdminLogin
-```
-
-Update system:
-```bash
-php -f bin/magento setup:upgrade
+composer require springimport/magento2-module-autocomplete-admin-login
+php bin/magento module:enable SpringImport_AutocompleteAdminLogin
+php bin/magento setup:upgrade
 ```
